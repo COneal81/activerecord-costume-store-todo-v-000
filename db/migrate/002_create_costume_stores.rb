@@ -9,7 +9,7 @@ class CreateCostumeStores < ActiveRecord::Migration[5.1]
       t.integer :costume_inventory 
       t.integer :employees
       t.boolean :still_in_business 
-      t.time :open 
+      t.time :opening_time
       t.time :closed
     end
   end
